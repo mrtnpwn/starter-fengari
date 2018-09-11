@@ -13,15 +13,15 @@ Your Project
 
 That's this file, where you can tell people what your cool website does and how you built it.
 
-### ← index.html
+### index.html
 
 Where you'll write the content of your website. 
 
-### ← main.lua
+### main.lua
 
 If you're feeling fancy you can add interactivity to your site with Lua.
 
-### ← assets
+### assets
 
 Drag in `assets`, like images or music, to add them to your project
 
