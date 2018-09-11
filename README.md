@@ -21,10 +21,6 @@ Where you'll write the content of your website.
 
 If you're feeling fancy you can add interactivity to your site with Lua.
 
-### assets
-
-Drag in `assets`, like images or music, to add them to your project
-
 Made by [mrtnpwn](https://mrtnpwn.club/)
 -------------------
 
