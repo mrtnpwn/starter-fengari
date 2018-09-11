@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello, Fengari!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="https://cdn.glitch.com/5337b8a9-04d8-4a66-b528-d55a445e35e3%2Ffengari.png?1536624064321"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <!-- Import Fengari -->
+    <script src="/fengari-web.js" defer></script>
+    
+    <!-- Import animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+  </head>  
+  <!-- Your Website -->
+  <body class="bg-dark text-white" style="color: white;">
+    
+    <div id="header" class="text-white align-items-center text-center">
+      <h1 class="text-center">Fengari Boilerplate</h1>
+      <input id="inp" class="text-center justify-content-center" type="text" value="Lua is Awesome">
+      <p class="text-center">made by <a style="color: purple;" href="https://github.com/mrtnpwn">@mrtnpwn</a></p><br>
+      <p class="text-center">
+        <img id="feng" class="animated fadeInRight" src="https://cdn.glitch.com/5337b8a9-04d8-4a66-b528-d55a445e35e3%2Ffengari.png?1536624064321"><br><br>
+        <button id="mag" type="button" class="btn btn-primary justify-content-center text-center">Do the Magic</button>
+      </p>
+    </div>
+    
+    <p class="text-center">
+      I'm your cool new webpage. Made with <a style="color: pink;" href="https://glitch.com">Glitch</a>!<br>
+      Check out the Console to see the magic!<br>
+    </p>
+    <p class="text-center text-info">To get started, check out main.lua!</p>
+
+    <!-- The Lua Script that is manipulating the DOM Elements. -->
+    <script src="/main.lua" type="application/lua"></script>
+    
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+  </body>
+</html>
