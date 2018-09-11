@@ -9,7 +9,7 @@ It comes with the CDN Version of Bootstrap and Animate.css as a demostration of 
 Your Project
 ------------
 
-### ← README.md
+### README.md
 
 That's this file, where you can tell people what your cool website does and how you built it.
 
